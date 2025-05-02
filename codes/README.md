@@ -152,7 +152,7 @@ También hay algunos números especiales:
     - **Decoder:** permite crear un objeto Decoder a partir de los hiperparámetros antes definidos, incluyendo su método fordward.  
     - **Classifier:** permite crear un objeto Classifier a partir de los hiperparámetros antes definidos, considera 2 capas ocultas y la capa de salida. Incluye su método fordward.  
     - **AEClassifier:** permite crear objeto AEClassifier, que consiste en un AutoEncoder a cuyo espacio latente se encuentra conectado un clasificador. Incluye su método fordward.  
-En este método retorna el modelo de arquitectura conjunta entre autoencoder y clasificador, también se definen aquí, las funciones de _loss_, el optimizador del modelo y el scheduler para modificar el learning rate.  
+En este método retorna el modelo de arquitectura conjunta entre autoencoder y clasificador, también se definen aquí, las funciones de _loss_, el optimizador del modelo y el scheduler para modificar los _learning rates_.  
 
 - `fdataloader`: este método lleva a cabo las funciones del dataloader del modelo, por lo que retorna los dataloader para entrenamiento y validación. Para funcionar recibe: 
     - **X**: conjunto de datos de entrenamiento, deben estar en el formato esperado `[# muestras temporales por ventana, # características consideradas]`
