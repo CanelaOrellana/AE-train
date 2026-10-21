@@ -12,3 +12,6 @@ _ _ _
 Saludos y éxito con sus AutoEncoders 🍀🍀🍀
 
  Canela Orellana
+
+ pd: abandoné un poquito el repo, prometo que algún día subiré lo último, por mientras:
+ - En el capítulo 3 y el anexo D de [este documento](https://repositorio.uchile.cl/handle/2250/215933) están los detalles finales de la implementación.
